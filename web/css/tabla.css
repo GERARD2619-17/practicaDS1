@@ -1,0 +1,55 @@
+/* inicia - table */
+#table01 {
+	border-collapse: collapse;
+	margin: 10px;	
+}
+
+#table01 a {
+	text-decoration: none;
+        color: steelblue;
+}
+
+#table01 th strong {
+	color: #fff;
+}
+#table01 th {
+	background: #539afa repeat-x;
+	height: 29px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #FFF;
+	text-align: left;
+	border-left: 1px solid #B6D59A;
+        border-right: 1px solid #B6D59A;
+	border-bottom: solid 1px #FFF;
+}
+#table01 tr {
+	height: 30px;
+}
+#table01 td {
+	padding-left: 11px;
+	padding-right: 11px;
+	border-left: 1px solid #E8E8E8;
+        border-right: 1px solid #E8E8E8;
+	border-bottom: 1px solid #DFDFDF;
+}
+#table01 td.first,th.first {
+	border-left: 0px;
+}
+#table01 tr.row-a {
+	background: #F8F8F8;
+}
+#table01 tr.row-b {
+	background: #EFEFEF;		
+}
+
+#table01 tbody tr:hover td
+{
+	background: #fbfcce repeat-x;
+	/*color: #339;*/
+}
+#table01 tbody tr:hover td a
+{
+
+	color: #000;
+}
